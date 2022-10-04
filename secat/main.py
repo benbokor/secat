@@ -16,7 +16,7 @@ from .plot import plot_features, check_sqlite_table
 from pyprophet.data_handling import transform_threads, transform_pi0_lambda
 
 # import cProfile
-#test
+
 @click.group(chain=True)
 @click.version_option()
 def cli():
